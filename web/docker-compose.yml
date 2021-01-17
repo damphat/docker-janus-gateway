@@ -1,0 +1,11 @@
+version: '3'
+services: 
+  web:
+    image: nginx:alpine
+    network_mode: host
+    env_file: .env
+    volumes:
+      - "./html:/usr/share/nginx/html"
+      - "./templates:/etc/nginx/templates"
+      - "${NGINX_CERT}:/etc/ssl/certs/janus.crt"
+      - "${NGINX_KEY}:/etc/ssl/certs/janus.key"

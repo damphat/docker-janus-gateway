@@ -1,0 +1,24 @@
+version: '3'
+services:
+
+  janus:
+    image: damphat/janus-gateway
+    build: .
+    # after adding --nat-1-1 it works
+    command: ["/usr/local/bin/janus", "-F", "/usr/local/etc/janus", "--nat-1-1", "178.128.22.184"]
+    
+    #Enable dòng này là chạy ổn nhất, khi enable sẽ không cần NAT-1-1, không cần map ports nữa
+    #network_mode: host
+    ports:
+      - "10000-10200:10000-10200/udp"
+      - "10000-10200:10000-10200/tcp"
+      - "8188:8188"
+      - "8088:8088"
+      - "8089:8089"
+      - "8889:8889"
+      - "8000:8000"
+      - "7088:7088"
+      - "7089:7089"
+    volumes:
+     - "./config/:/usr/local/etc/janus/"
+    restart: always

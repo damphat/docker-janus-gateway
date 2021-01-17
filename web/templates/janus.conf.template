@@ -1,0 +1,66 @@
+# server {
+#     listen 80;
+#     server_name ${NGINX_HOST};
+#     location /ws {
+#         proxy_set_header Host $host;
+#         proxy_set_header X-Real-IP $remote_addr;
+#         proxy_redirect off;
+#         proxy_buffering off;
+#         proxy_pass http://127.0.0.1:8188;
+#         proxy_http_version 1.1;
+#         proxy_set_header Upgrade $http_upgrade;
+#         proxy_set_header Connection "upgrade";
+#     }
+
+#     location / {
+#         return 301 https://$host$request_uri;
+#     }
+# }
+
+# https, wss
+server {
+    listen 443 ssl;
+    listen 80;
+    server_name ${NGINX_HOST};
+
+    ssl_certificate /etc/ssl/certs/janus.crt;
+    ssl_certificate_key /etc/ssl/certs/janus.key;
+
+    # http transport
+    location /janus/ {
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_redirect off;
+        proxy_buffering off;
+        proxy_pass http://127.0.0.1:8088;
+        proxy_http_version 1.1;
+    }
+
+    # websocket transport
+    location /ws {
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_redirect off;
+        proxy_buffering off;
+        proxy_pass http://127.0.0.1:8188;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+
+    # admin transport
+    location ~ (^/admin$)|(^/admin/) {
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_redirect off;
+        proxy_buffering off;
+        proxy_pass http://127.0.0.1:7088;
+        proxy_http_version 1.1;
+    }
+
+    # optional, homepage hoặc demo
+    location / {
+        root /usr/share/nginx/html;
+        add_header Cache-Control 'no-store';
+    }
+}
