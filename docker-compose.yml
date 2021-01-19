@@ -9,15 +9,16 @@ services:
     volumes:
      - "./janus/config:/usr/local/etc/janus/"
     restart: always
-
   web:
     image: nginx:alpine
     network_mode: host
+    depends_on: [janus]
     environment:
-      - NGINX_HOST:"${NGINX_HOST:-localhost}"
-      - JANUS_HOST:"${DOCKER_IP:-localhost}"
+      - JANUS_HOST=${JANUS_HOST:-localhost}
+      - NGINX_HOST=${NGINX_HOST:-localhost}
     volumes:
       - "${NGINX_HTML:-./web/html}:/usr/share/nginx/html"
       - "${NGINX_TEMPLATES:-./web/templates}:/etc/nginx/templates"
       - "${NGINX_CERT:-./cert/localhost.crt}:/etc/ssl/certs/janus.crt"
       - "${NGINX_KEY:-./cert/localhost.key}:/etc/ssl/certs/janus.key"
+    restart: always
