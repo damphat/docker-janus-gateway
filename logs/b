@@ -1,0 +1,752 @@
+janus_1  | [WSS-0x7f4c5004b200] WebSocket connection opened from ::ffff:139.59.246.202
+janus_1  | Checking if ::ffff:139.59.246.202 is allowed to contact janus interface
+janus_1  | Yep
+janus_1  | [WSS-0x7f4c5004b200] WebSocket connection accepted
+janus_1  | [WSS-0x7f4c5004b200]   -- Ready to be used!
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | Creating new session: 8693467609873707; 0x7f4c4c005bf0
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | Creating new handle in session 8693467609873707: 3946167701120051; 0x7f4c4c005bf0 0x7f4c4c001d50
+janus_1  | [3946167701120051] Handle thread started; 0x7f4c4c001d50
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | Transport task pool, serving request
+janus_1  | [3946167701120051] There's a message for JANUS EchoTest plugin
+janus_1  | Setting audio property: true
+janus_1  | Setting video property: true
+janus_1  | [3946167701120051] Sending event to transport...
+janus_1  |   >> 0 (Success)
+web_1    | 115.78.2.93 - - [19/Jan/2021:04:35:00 +0000] "GET /up_arrow.png HTTP/1.1" 200 2611 "https://turn.aeit.club/echotest.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "-"
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.512: Agent 0x7f4c540122c0 : Property set, changing role to "controlled".
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Created NiceStream (3 created, 2 destroyed)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Created NiceComponent (3 created, 2 destroyed)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Agent 0x7f4c540122c0 : allocating stream id 1 (0x7f4c54004fb0)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Agent 0x7f4c540122c0 : In ICE-FULL mode, starting candidate gathering.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Agent 0x7f4c540122c0 : libnice compiled without UPnP support
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Agent 0x7f4c540122c0: Trying to create host candidate on port 0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.513: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: IP Address: 139.59.246.202
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Agent 0x7f4c540122c0: Could not set IPV6 socket ToS: Protocol not available
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Component 0x7f4c54017180: Attach source (stream 1).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Attaching source 0x7f4c54024d00 (socket 0x7f4c5401d6b0, FD 35) to context 0x7f4c54020a00
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.514: Agent 0x7f4c540122c0: Trying to create host candidate on port 0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: 139.59.246.202
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  eth0
+janus_1  | Transport task pool, serving request
+janus_1  | [3946167701120051] There's a message for JANUS EchoTest plugin
+janus_1  | [3946167701120051] Remote SDP:
+janus_1  | v=0
+janus_1  | o=- 3784737781615571637 2 IN IP4 127.0.0.1
+janus_1  | s=-
+janus_1  | t=0 0
+janus_1  | a=group:BUNDLE 0 1 2
+janus_1  | a=msid-semantic: WMS 0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB
+janus_1  | m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+janus_1  | c=IN IP4 0.0.0.0
+janus_1  | a=rtcp:9 IN IP4 0.0.0.0
+janus_1  | a=ice-ufrag:EG9r
+janus_1  | a=ice-pwd:Z4B3I0+7zIdrqbe9hMsm6vQt
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 92:C7:87:65:ED:1F:0A:76:01:A0:1F:11:C8:07:FF:EE:77:E1:53:58:15:1D:6F:54:68:98:46:C1:BA:24:7D:0F
+janus_1  | a=setup:actpass
+janus_1  | a=mid:0
+janus_1  | a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=sendrecv
+janus_1  | a=msid:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB 77b45600-20c9-49e7-9851-c54bb772cee4
+janus_1  | a=rtcp-mux
+janus_1  | a=rtpmap:111 opus/48000/2
+janus_1  | a=rtcp-fb:111 transport-cc
+janus_1  | a=fmtp:111 minptime=10;useinbandfec=1
+janus_1  | a=rtpmap:103 ISAC/16000
+janus_1  | a=rtpmap:104 ISAC/32000
+janus_1  | a=rtpmap:9 G722/8000
+janus_1  | a=rtpmap:0 PCMU/8000
+janus_1  | a=rtpmap:8 PCMA/8000
+janus_1  | a=rtpmap:106 CN/32000
+janus_1  | a=rtpmap:105 CN/16000
+janus_1  | a=rtpmap:13 CN/8000
+janus_1  | a=rtpmap:110 telephone-event/48000
+janus_1  | a=rtpmap:112 telephone-event/32000
+janus_1  | a=rtpmap:113 telephone-event/16000
+janus_1  | a=rtpmap:126 telephone-event/8000
+janus_1  | a=ssrc:2055674634 cname:KsxsG4OofactQiJe
+janus_1  | a=ssrc:2055674634 msid:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB 77b45600-20c9-49e7-9851-c54bb772cee4
+janus_1  | a=ssrc:2055674634 mslabel:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB
+janus_1  | a=ssrc:2055674634 label:77b45600-20c9-49e7-9851-c54bb772cee4
+janus_1  | m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 121 127 120 125 107 108 109 124 119 123 118 114 115 116
+janus_1  | c=IN IP4 0.0.0.0
+janus_1  | a=rtcp:9 IN IP4 0.0.0.0
+janus_1  | a=ice-ufrag:EG9r
+janus_1  | a=ice-pwd:Z4B3I0+7zIdrqbe9hMsm6vQt
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 92:C7:87:65:ED:1F:0A:76:01:A0:1F:11:C8:07:FF:EE:77:E1:53:58:15:1D:6F:54:68:98:46:C1:BA:24:7D:0F
+janus_1  | a=setup:actpass
+janus_1  | a=mid:1
+janus_1  | a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:13 urn:3gpp:video-orientation
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:12 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+janus_1  | a=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+janus_1  | a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+janus_1  | a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=sendrecv
+janus_1  | a=msid:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB 7eaae410-3e95-499a-88f3-1ca1b49d4c09
+janus_1  | a=rtcp-mux
+janus_1  | a=rtcp-rsize
+janus_1  | a=rtpmap:96 VP8/90000
+janus_1  | a=rtcp-fb:96 goog-remb
+janus_1  | a=rtcp-fb:96 transport-cc
+janus_1  | a=rtcp-fb:96 ccm fir
+janus_1  | a=rtcp-fb:96 nack
+janus_1  | a=rtcp-fb:96 nack pli
+janus_1  | a=rtpmap:97 rtx/90000
+janus_1  | a=fmtp:97 apt=96
+janus_1  | a=rtpmap:98 VP9/90000
+janus_1  | a=rtcp-fb:98 goog-remb
+janus_1  | a=rtcp-fb:98 transport-cc
+janus_1  | a=rtcp-fb:98 ccm fir
+janus_1  | a=rtcp-fb:98 nack
+janus_1  | a=rtcp-fb:98 nack pli
+janus_1  | a=fmtp:98 profile-id=0
+janus_1  | a=rtpmap:99 rtx/90000
+janus_1  | a=fmtp:99 apt=98
+janus_1  | a=rtpmap:100 VP9/90000
+janus_1  | a=rtcp-fb:100 goog-remb
+janus_1  | a=rtcp-fb:100 transport-cc
+janus_1  | a=rtcp-fb:100 ccm fir
+janus_1  | a=rtcp-fb:100 nack
+janus_1  | a=rtcp-fb:100 nack pli
+janus_1  | a=fmtp:100 profile-id=2
+janus_1  | a=rtpmap:101 rtx/90000
+janus_1  | a=fmtp:101 apt=100
+janus_1  | a=rtpmap:102 H264/90000
+janus_1  | a=rtcp-fb:102 goog-remb
+janus_1  | a=rtcp-fb:102 transport-cc
+janus_1  | a=rtcp-fb:102 ccm fir
+janus_1  | a=rtcp-fb:102 nack
+janus_1  | a=rtcp-fb:102 nack pli
+janus_1  | a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+janus_1  | a=rtpmap:121 rtx/90000
+janus_1  | a=fmtp:121 apt=102
+janus_1  | a=rtpmap:127 H264/90000
+janus_1  | a=rtcp-fb:127 goog-remb
+janus_1  | a=rtcp-fb:127 transport-cc
+janus_1  | a=rtcp-fb:127 ccm fir
+janus_1  | a=rtcp-fb:127 nack
+janus_1  | a=rtcp-fb:127 nack pli
+janus_1  | a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f
+janus_1  | a=rtpmap:120 rtx/90000
+janus_1  | a=fmtp:120 apt=127
+janus_1  | a=rtpmap:125 H264/90000
+janus_1  | a=rtcp-fb:125 goog-remb
+janus_1  | a=rtcp-fb:125 transport-cc
+janus_1  | a=rtcp-fb:125 ccm fir
+janus_1  | a=rtcp-fb:125 nack
+janus_1  | a=rtcp-fb:125 nack pli
+janus_1  | a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+janus_1  | a=rtpmap:107 rtx/90000
+janus_1  | a=fmtp:107 apt=125
+janus_1  | a=rtpmap:108 H264/90000
+janus_1  | a=rtcp-fb:108 goog-remb
+janus_1  | a=rtcp-fb:108 transport-cc
+janus_1  | a=rtcp-fb:108 ccm fir
+janus_1  | a=rtcp-fb:108 nack
+janus_1  | a=rtcp-fb:108 nack pli
+janus_1  | a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f
+janus_1  | a=rtpmap:109 rtx/90000
+janus_1  | a=fmtp:109 apt=108
+janus_1  | a=rtpmap:124 H264/90000
+janus_1  | a=rtcp-fb:124 goog-remb
+janus_1  | a=rtcp-fb:124 transport-cc
+janus_1  | a=rtcp-fb:124 ccm fir
+janus_1  | a=rtcp-fb:124 nack
+janus_1  | a=rtcp-fb:124 nack pli
+janus_1  | a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f
+janus_1  | a=rtpmap:119 rtx/90000
+janus_1  | a=fmtp:119 apt=124
+janus_1  | a=rtpmap:123 H264/90000
+janus_1  | a=rtcp-fb:123 goog-remb
+janus_1  | a=rtcp-fb:123 transport-cc
+janus_1  | a=rtcp-fb:123 ccm fir
+janus_1  | a=rtcp-fb:123 nack
+janus_1  | a=rtcp-fb:123 nack pli
+janus_1  | a=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f
+janus_1  | a=rtpmap:118 rtx/90000
+janus_1  | a=fmtp:118 apt=123
+janus_1  | a=rtpmap:114 red/90000
+janus_1  | a=rtpmap:115 rtx/90000
+janus_1  | a=fmtp:115 apt=114
+janus_1  | a=rtpmap:116 ulpfec/90000
+janus_1  | a=ssrc-group:FID 3539132598 2758145717
+janus_1  | a=ssrc:3539132598 cname:KsxsG4OofactQiJe
+janus_1  | a=ssrc:3539132598 msid:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB 7eaae410-3e95-499a-88f3-1ca1b49d4c09
+janus_1  | a=ssrc:3539132598 mslabel:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB
+janus_1  | a=ssrc:3539132598 label:7eaae410-3e95-499a-88f3-1ca1b49d4c09
+janus_1  | a=ssrc:2758145717 cname:KsxsG4OofactQiJe
+janus_1  | a=ssrc:2758145717 msid:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB 7eaae410-3e95-499a-88f3-1ca1b49d4c09
+janus_1  | a=ssrc:2758145717 mslabel:0MY4enzRM7INZo9e4arzK7o0KyYA09rG5FMB
+janus_1  | a=ssrc:2758145717 label:7eaae410-3e95-499a-88f3-1ca1b49d4c09
+janus_1  | m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+janus_1  | c=IN IP4 0.0.0.0
+janus_1  | a=ice-ufrag:EG9r
+janus_1  | a=ice-pwd:Z4B3I0+7zIdrqbe9hMsm6vQt
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 92:C7:87:65:ED:1F:0A:76:01:A0:1F:11:C8:07:FF:EE:77:E1:53:58:15:1D:6F:54:68:98:46:C1:BA:24:7D:0F
+janus_1  | a=setup:actpass
+janus_1  | a=mid:2
+janus_1  | a=sctp-port:5000
+janus_1  | a=max-message-size:262144
+janus_1  | [3946167701120051] Audio mid: 0
+janus_1  | [3946167701120051] Video mid: 1
+janus_1  | [3946167701120051] Audio has been negotiated, Video has been negotiated, SCTP/DataChannels have been negotiated
+janus_1  | [3946167701120051] Setting ICE locally: got OFFER (1 audios, 1 videos)
+janus_1  | [3946167701120051] Creating ICE agent (ICE Full mode, controlled)
+janus_1  | [3946167701120051] Adding 139.59.246.202 to the addresses to gather candidates for
+janus_1  | [3946167701120051] Adding 10.15.0.16 to the addresses to gather candidates for
+janus_1  | [3946167701120051] Adding 10.130.119.178 to the addresses to gather candidates for
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Agent 0x7f4c540122c0: Could not set IPV6 socket ToS: Protocol not available
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.515: Component 0x7f4c54017180: Attach source (stream 1).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Attaching source 0x7f4c54016600 (socket 0x7f4c5401d720, FD 36) to context 0x7f4c54020a00
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Agent 0x7f4c540122c0: Trying to create host candidate on port 0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: IP Address: 139.59.246.202
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.516: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Agent 0x7f4c540122c0: Could not set IPV6 socket ToS: Protocol not available
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Component 0x7f4c54017180: Attach source (stream 1).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Attaching source 0x7f4c540245c0 (socket 0x7f4c5401f420, FD 37) to context 0x7f4c54020a00
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Agent 0x7f4c540122c0: Candidate gathering FINISHED, no scheduled items.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Agent 0x7f4c540122c0: gathered UDP local candidate : [139.59.246.202]:48275 for s1/c1. U/P '(null)'/'(null)'
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Agent 0x7f4c540122c0: gathered UDP local candidate : [10.15.0.16]:33185 for s1/c1. U/P '(null)'/'(null)'
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Agent 0x7f4c540122c0: gathered UDP local candidate : [10.130.119.178]:50063 for s1/c1. U/P '(null)'/'(null)'
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Detach source 0x7f4c540245c0, socket 0x7f4c5401f420.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Detaching source 0x7f4c540245c0 (socket 0x7f4c5401f420, FD 37) from context 0x7f4c54020a00
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Detach source 0x7f4c54016600, socket 0x7f4c5401d720.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Detaching source 0x7f4c54016600 (socket 0x7f4c5401d720, FD 36) from context 0x7f4c54020a00
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Detach source 0x7f4c54024d00, socket 0x7f4c5401d6b0.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Detaching source 0x7f4c54024d00 (socket 0x7f4c5401d6b0, FD 35) from context 0x7f4c54020a00
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.517: Reattach source (nil).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Detaching source (nil) (socket 0x7f4c5401f420, FD 37) from context (nil)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Attaching source 0x7f4c54021380 (socket 0x7f4c5401f420, FD 37) to context 0x7f4c4c0030e0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Reattach source (nil).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Detaching source (nil) (socket 0x7f4c5401d720, FD 36) from context (nil)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Attaching source 0x7f4c54024d00 (socket 0x7f4c5401d720, FD 36) to context 0x7f4c4c0030e0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Reattach source (nil).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Detaching source (nil) (socket 0x7f4c5401d6b0, FD 35) from context (nil)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Attaching source 0x7f4c540245c0 (socket 0x7f4c5401d6b0, FD 35) to context 0x7f4c4c0030e0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Agent 0x7f4c540122c0: set_remote_credentials 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.518: Agent 0x7f4c540122c0 : conn_check_remote_candidates_set 1 1
+janus_1  | [3946167701120051] Gathering done for stream 1
+janus_1  | [3946167701120051] Parsing audio candidates (stream=1)...
+janus_1  | [3946167701120051] ICE ufrag (local):   EG9r
+janus_1  | [3946167701120051] ICE pwd (local):     Z4B3I0+7zIdrqbe9hMsm6vQt
+janus_1  | [3946167701120051] Fingerprint (local) : sha-256 92:C7:87:65:ED:1F:0A:76:01:A0:1F:11:C8:07:FF:EE:77:E1:53:58:15:1D:6F:54:68:98:46:C1:BA:24:7D:0F
+janus_1  | [3946167701120051] DTLS setup (local):  actpass
+janus_1  | [3946167701120051] Setting connect state (DTLS client)
+janus_1  | [3946167701120051] Audio mid: 0
+janus_1  | [3946167701120051] Setting remote credentials...
+janus_1  | [3946167701120051] Peer audio SSRC: 2055674634
+janus_1  | [3946167701120051] Parsing video candidates (stream=1)...
+janus_1  | [3946167701120051] ICE ufrag (local):   EG9r
+janus_1  | [3946167701120051] ICE pwd (local):     Z4B3I0+7zIdrqbe9hMsm6vQt
+janus_1  | [3946167701120051] Fingerprint (local) : sha-256 92:C7:87:65:ED:1F:0A:76:01:A0:1F:11:C8:07:FF:EE:77:E1:53:58:15:1D:6F:54:68:98:46:C1:BA:24:7D:0F
+janus_1  | [3946167701120051] DTLS setup (local):  actpass
+janus_1  | [3946167701120051] Setting connect state (DTLS client)
+janus_1  | [3946167701120051] Video mid: 1
+janus_1  | [3946167701120051] Peer video SSRC: 3539132598
+janus_1  | [3946167701120051] Peer video SSRC (rtx): 2758145717
+janus_1  | [3946167701120051] Parsing SCTP candidates (stream=1)...
+janus_1  | [3946167701120051] ICE ufrag (local):   EG9r
+janus_1  | [3946167701120051] ICE pwd (local):     Z4B3I0+7zIdrqbe9hMsm6vQt
+janus_1  | [3946167701120051] Fingerprint (local) : sha-256 92:C7:87:65:ED:1F:0A:76:01:A0:1F:11:C8:07:FF:EE:77:E1:53:58:15:1D:6F:54:68:98:46:C1:BA:24:7D:0F
+janus_1  | [3946167701120051] DTLS setup (local):  actpass
+janus_1  | [3946167701120051] Setting connect state (DTLS client)
+janus_1  | [3946167701120051] Data Channel mid: 2
+janus_1  | Will remove payload type 97 (97 rtx/90000)
+janus_1  | Will remove payload type 99 (99 rtx/90000)
+janus_1  | Will remove payload type 101 (101 rtx/90000)
+janus_1  | Will remove payload type 121 (121 rtx/90000)
+janus_1  | Will remove payload type 120 (120 rtx/90000)
+janus_1  | Will remove payload type 107 (107 rtx/90000)
+janus_1  | Will remove payload type 109 (109 rtx/90000)
+janus_1  | Will remove payload type 119 (119 rtx/90000)
+janus_1  | Will remove payload type 118 (118 rtx/90000)
+janus_1  | Will remove payload type 114 (114 red/90000)
+janus_1  | Will remove payload type 115 (115 rtx/90000)
+janus_1  | Will remove payload type 116 (116 ulpfec/90000)
+janus_1  |  -------------------------------------------
+janus_1  |   >> Anonymized
+janus_1  |  -------------------------------------------
+janus_1  | Setting audio property: true
+janus_1  | Setting video property: true
+janus_1  | This is involving a negotiation (offer) as well:
+janus_1  | v=0
+janus_1  | o=- 3784737781615571637 2 IN IP4 1.1.1.1
+janus_1  | s=-
+janus_1  | t=0 0
+janus_1  | m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+janus_1  | c=IN IP4 1.1.1.1
+janus_1  | a=sendrecv
+janus_1  | a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=rtpmap:111 opus/48000/2
+janus_1  | a=rtcp-fb:111 transport-cc
+janus_1  | a=fmtp:111 minptime=10;useinbandfec=1
+janus_1  | a=rtpmap:103 ISAC/16000
+janus_1  | a=rtpmap:104 ISAC/32000
+janus_1  | a=rtpmap:9 G722/8000
+janus_1  | a=rtpmap:0 PCMU/8000
+janus_1  | a=rtpmap:8 PCMA/8000
+janus_1  | a=rtpmap:106 CN/32000
+janus_1  | a=rtpmap:105 CN/16000
+janus_1  | a=rtpmap:13 CN/8000
+janus_1  | a=rtpmap:110 telephone-event/48000
+janus_1  | a=rtpmap:112 telephone-event/32000
+janus_1  | a=rtpmap:113 telephone-event/16000
+janus_1  | a=rtpmap:126 telephone-event/8000
+janus_1  | m=video 9 UDP/TLS/RTP/SAVPF 96 98 100 102 127 125 108 124 123
+janus_1  | c=IN IP4 1.1.1.1
+janus_1  | a=sendrecv
+janus_1  | a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:13 urn:3gpp:video-orientation
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:12 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+janus_1  | a=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+janus_1  | a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+janus_1  | a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=rtpmap:96 VP8/90000
+janus_1  | a=rtcp-fb:96 goog-remb
+janus_1  | a=rtcp-fb:96 transport-cc
+janus_1  | a=rtcp-fb:96 ccm fir
+janus_1  | a=rtcp-fb:96 nack
+janus_1  | a=rtcp-fb:96 nack pli
+janus_1  | a=rtpmap:98 VP9/90000
+janus_1  | a=rtcp-fb:98 goog-remb
+janus_1  | a=rtcp-fb:98 transport-cc
+janus_1  | a=rtcp-fb:98 ccm fir
+janus_1  | a=rtcp-fb:98 nack
+janus_1  | a=rtcp-fb:98 nack pli
+janus_1  | a=fmtp:98 profile-id=0
+janus_1  | a=rtpmap:100 VP9/90000
+janus_1  | a=rtcp-fb:100 goog-remb
+janus_1  | a=rtcp-fb:100 transport-cc
+janus_1  | a=rtcp-fb:100 ccm fir
+janus_1  | a=rtcp-fb:100 nack
+janus_1  | a=rtcp-fb:100 nack pli
+janus_1  | a=fmtp:100 profile-id=2
+janus_1  | a=rtpmap:102 H264/90000
+janus_1  | a=rtcp-fb:102 goog-remb
+janus_1  | a=rtcp-fb:102 transport-cc
+janus_1  | a=rtcp-fb:102 ccm fir
+janus_1  | a=rtcp-fb:102 nack
+janus_1  | a=rtcp-fb:102 nack pli
+janus_1  | a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+janus_1  | a=rtpmap:127 H264/90000
+janus_1  | a=rtcp-fb:127 goog-remb
+janus_1  | a=rtcp-fb:127 transport-cc
+janus_1  | a=rtcp-fb:127 ccm fir
+janus_1  | a=rtcp-fb:127 nack
+janus_1  | a=rtcp-fb:127 nack pli
+janus_1  | a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f
+janus_1  | a=rtpmap:125 H264/90000
+janus_1  | a=rtcp-fb:125 goog-remb
+janus_1  | a=rtcp-fb:125 transport-cc
+janus_1  | a=rtcp-fb:125 ccm fir
+janus_1  | a=rtcp-fb:125 nack
+janus_1  | a=rtcp-fb:125 nack pli
+janus_1  | a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+janus_1  | a=rtpmap:108 H264/90000
+janus_1  | a=rtcp-fb:108 goog-remb
+janus_1  | a=rtcp-fb:108 transport-cc
+janus_1  | a=rtcp-fb:108 ccm fir
+janus_1  | a=rtcp-fb:108 nack
+janus_1  | a=rtcp-fb:108 nack pli
+janus_1  | a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f
+janus_1  | a=rtpmap:124 H264/90000
+janus_1  | a=rtcp-fb:124 goog-remb
+janus_1  | a=rtcp-fb:124 transport-cc
+janus_1  | a=rtcp-fb:124 ccm fir
+janus_1  | a=rtcp-fb:124 nack
+janus_1  | a=rtcp-fb:124 nack pli
+janus_1  | a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f
+janus_1  | a=rtpmap:123 H264/90000
+janus_1  | a=rtcp-fb:123 goog-remb
+janus_1  | a=rtcp-fb:123 transport-cc
+janus_1  | a=rtcp-fb:123 ccm fir
+janus_1  | a=rtcp-fb:123 nack
+janus_1  | a=rtcp-fb:123 nack pli
+janus_1  | a=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f
+janus_1  | m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+janus_1  | c=IN IP4 1.1.1.1
+janus_1  | a=sendrecv
+janus_1  | 
+janus_1  |  -------------------------------------------
+janus_1  |   >> Anonymized
+janus_1  |  -------------------------------------------
+janus_1  | [3946167701120051] We have 3 candidates for Stream #1, Component #1
+janus_1  | [3946167701120051]   Address:    139.59.246.202:48275
+janus_1  | [3946167701120051]   Priority:   2015363327
+janus_1  | [3946167701120051]   Foundation: 1
+janus_1  | [3946167701120051]     1 1 udp 2015363327 139.59.246.202 48275 typ host
+janus_1  | [3946167701120051]   Address:    10.15.0.16:33185
+janus_1  | [3946167701120051]   Priority:   2015363583
+janus_1  | [3946167701120051]   Foundation: 2
+janus_1  | [3946167701120051]     2 1 udp 2015363583 10.15.0.16 33185 typ host
+janus_1  | [3946167701120051]   Address:    10.130.119.178:50063
+janus_1  | [3946167701120051]   Priority:   2015363839
+janus_1  | [3946167701120051]   Foundation: 3
+janus_1  | [3946167701120051]     3 1 udp 2015363839 10.130.119.178 50063 typ host
+janus_1  | [3946167701120051] We have 3 candidates for Stream #1, Component #1
+janus_1  | [3946167701120051]   Address:    139.59.246.202:48275
+janus_1  | [3946167701120051]   Priority:   2015363327
+janus_1  | [3946167701120051]   Foundation: 1
+janus_1  | [3946167701120051]     1 1 udp 2015363327 139.59.246.202 48275 typ host
+janus_1  | [3946167701120051]   Address:    10.15.0.16:33185
+janus_1  | [3946167701120051]   Priority:   2015363583
+janus_1  | [3946167701120051]   Foundation: 2
+janus_1  | [3946167701120051]     2 1 udp 2015363583 10.15.0.16 33185 typ host
+janus_1  | [3946167701120051]   Address:    10.130.119.178:50063
+janus_1  | [3946167701120051]   Priority:   2015363839
+janus_1  | [3946167701120051]   Foundation: 3
+janus_1  | [3946167701120051]     3 1 udp 2015363839 10.130.119.178 50063 typ host
+janus_1  | [3946167701120051] We have 3 candidates for Stream #1, Component #1
+janus_1  | [3946167701120051]   Address:    139.59.246.202:48275
+janus_1  | [3946167701120051]   Priority:   2015363327
+janus_1  | [3946167701120051]   Foundation: 1
+janus_1  | [3946167701120051]     1 1 udp 2015363327 139.59.246.202 48275 typ host
+janus_1  | [3946167701120051]   Address:    10.15.0.16:33185
+janus_1  | [3946167701120051]   Priority:   2015363583
+janus_1  | [3946167701120051]   Foundation: 2
+janus_1  | [3946167701120051]     2 1 udp 2015363583 10.15.0.16 33185 typ host
+janus_1  | [3946167701120051]   Address:    10.130.119.178:50063
+janus_1  | [3946167701120051]   Priority:   2015363839
+janus_1  | [3946167701120051]   Foundation: 3
+janus_1  | [3946167701120051]     3 1 udp 2015363839 10.130.119.178 50063 typ host
+janus_1  |  -------------------------------------------
+janus_1  |   >> Merged (2984 bytes)
+janus_1  |  -------------------------------------------
+janus_1  | v=0
+janus_1  | o=- 3784737781615571637 2 IN IP4 139.59.246.202
+janus_1  | s=-
+janus_1  | t=0 0
+janus_1  | a=group:BUNDLE 0 1 2
+janus_1  | a=msid-semantic: WMS janus
+janus_1  | m=audio 9 UDP/TLS/RTP/SAVPF 111
+janus_1  | c=IN IP4 139.59.246.202
+janus_1  | a=sendrecv
+janus_1  | a=mid:0
+janus_1  | a=rtcp-mux
+janus_1  | a=ice-ufrag:8o4p
+janus_1  | a=ice-pwd:xuojvmPoWdPeY96tCEyWOw
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 C9:23:06:F0:D1:F5:B5:1E:00:14:F4:84:BE:54:CA:2A:F4:F1:0A:C1:AD:BB:F0:71:C8:A0:EC:64:21:4A:2F:2F
+janus_1  | a=setup:active
+janus_1  | a=rtpmap:111 opus/48000/2
+janus_1  | a=fmtp:111 useinbandfec=1
+janus_1  | a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=msid:janus janusa0
+janus_1  | a=ssrc:1565866929 cname:janus
+janus_1  | a=ssrc:1565866929 msid:janus janusa0
+janus_1  | a=ssrc:1565866929 mslabel:janus
+janus_1  | a=ssrc:1565866929 label:janusa0
+janus_1  | a=candidate:1 1 udp 2015363327 139.59.246.202 48275 typ host
+janus_1  | a=candidate:2 1 udp 2015363583 10.15.0.16 33185 typ host
+janus_1  | a=candidate:3 1 udp 2015363839 10.130.119.178 50063 typ host
+janus_1  | a=end-of-candidates
+janus_1  | m=video 9 UDP/TLS/RTP/SAVPF 96 97
+janus_1  | c=IN IP4 139.59.246.202
+janus_1  | a=sendrecv
+janus_1  | a=mid:1
+janus_1  | a=rtcp-mux
+janus_1  | a=ice-ufrag:8o4p
+janus_1  | a=ice-pwd:xuojvmPoWdPeY96tCEyWOw
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 C9:23:06:F0:D1:F5:B5:1E:00:14:F4:84:BE:54:CA:2A:F4:F1:0A:C1:AD:BB:F0:71:C8:A0:EC:64:21:4A:2F:2F
+janus_1  | a=setup:active
+janus_1  | a=rtpmap:96 VP8/90000
+janus_1  | a=rtcp-fb:96 ccm fir
+janus_1  | a=rtcp-fb:96 nack
+janus_1  | a=rtcp-fb:96 nack pli
+janus_1  | a=rtcp-fb:96 goog-remb
+janus_1  | a=rtcp-fb:96 transport-cc
+janus_1  | a=extmap:13 urn:3gpp:video-orientation
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=rtpmap:97 rtx/90000
+janus_1  | a=fmtp:97 apt=96
+janus_1  | a=ssrc-group:FID 2182799780 916954325
+janus_1  | a=msid:janus janusv0
+janus_1  | a=ssrc:2182799780 cname:janus
+janus_1  | a=ssrc:2182799780 msid:janus janusv0
+janus_1  | a=ssrc:2182799780 mslabel:janus
+janus_1  | a=ssrc:2182799780 label:janusv0
+janus_1  | a=ssrc:916954325 cname:janus
+janus_1  | a=ssrc:916954325 msid:janus janusv0
+janus_1  | a=ssrc:916954325 mslabel:janus
+janus_1  | a=ssrc:916954325 label:janusv0
+janus_1  | a=candidate:1 1 udp 2015363327 139.59.246.202 48275 typ host
+janus_1  | a=candidate:2 1 udp 2015363583 10.15.0.16 33185 typ host
+janus_1  | a=candidate:3 1 udp 2015363839 10.130.119.178 50063 typ host
+janus_1  | a=end-of-candidates
+janus_1  | m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+janus_1  | c=IN IP4 139.59.246.202
+janus_1  | a=sendrecv
+janus_1  | a=sctp-port:5000
+janus_1  | a=mid:2
+janus_1  | a=ice-ufrag:8o4p
+janus_1  | a=ice-pwd:xuojvmPoWdPeY96tCEyWOw
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 C9:23:06:F0:D1:F5:B5:1E:00:14:F4:84:BE:54:CA:2A:F4:F1:0A:C1:AD:BB:F0:71:C8:A0:EC:64:21:4A:2F:2F
+janus_1  | a=setup:active
+janus_1  | a=candidate:1 1 udp 2015363327 139.59.246.202 48275 typ host
+janus_1  | a=candidate:2 1 udp 2015363583 10.15.0.16 33185 typ host
+janus_1  | a=candidate:3 1 udp 2015363839 10.130.119.178 50063 typ host
+janus_1  | a=end-of-candidates
+janus_1  | 
+janus_1  | [3946167701120051] Sending answer, ready to setup remote candidates and send connectivity checks...
+janus_1  | [3946167701120051]   -- ICE Trickling is supported by the browser, waiting for remote candidates...
+janus_1  | [3946167701120051] Sending event to transport...
+janus_1  |   >> Pushing event: 0 (took 701 us)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | [3946167701120051] Trickle candidate (0): candidate:3107582765 1 udp 2113937151 192.168.1.171 58820 typ host generation 0 ufrag EG9r network-cost 999
+janus_1  | [3946167701120051]  Adding remote candidate component:1 stream:1 type:host 192.168.1.171:58820
+janus_1  | [3946167701120051]  Transport: UDP
+janus_1  | [3946167701120051] ICE already started for this component, setting candidates we have up to now
+janus_1  | [3946167701120051] ## Setting remote candidates: stream 1, component 1 (1 in the list)
+janus_1  | [3946167701120051] Queueing candidate 0x7f4c4c006000 (startup)
+janus_1  | [3946167701120051] Trickle candidate (1): candidate:3107582765 1 udp 2113937151 192.168.1.171 58822 typ host generation 0 ufrag EG9r network-cost 999
+janus_1  | [3946167701120051] Got a mid='1' candidate (index 1) but we're bundling, ignoring...
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.522: Agent 0x7f4c540122c0: set_remote_candidates 1 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.522: Agent 0x7f4c540122c0 : Adding UDP remote candidate with addr [192.168.1.171]:58820 for s1/c1. U/P '(null)'/'(null)' prio: 7e001eff
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.522: Agent 0x7f4c540122c0 : creating a new pair
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.523: Agent 0x7f4c540122c0 : pair 0x7f4c58003160 state FROZEN (priv_add_new_check_pair)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.523: Agent 0x7f4c540122c0 : new pair 0x7f4c58003160 : [139.59.246.202]:48275 --> [192.168.1.171]:58820
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.523: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.523: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.523: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.523: Interface:  lo
+janus_1  | [3946167701120051] Processing candidate 0x7f4c4c006000
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | [3946167701120051] Trickle candidate (2): candidate:3107582765 1 udp 2113937151 192.168.1.171 58824 typ host generation 0 ufrag EG9r network-cost 999
+janus_1  | [3946167701120051] Got a mid='2' candidate (index 2) but we're bundling, ignoring...
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.527: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.527: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.527: IP Address: 139.59.246.202
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.527: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.527: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Agent 0x7f4c540122c0 : added a new pair 0x7f4c58003160 with foundation '1:3107582765' and transport udp:udp to stream 1 component 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Agent 0x7f4c540122c0 : stream 1 component 1 STATE-CHANGE disconnected -> connecting.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Agent 0x7f4c540122c0 : creating a new pair
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Agent 0x7f4c540122c0 : pair 0x7f4c58003210 state FROZEN (priv_add_new_check_pair)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Agent 0x7f4c540122c0 : new pair 0x7f4c58003210 : [10.15.0.16]:33185 --> [192.168.1.171]:58820
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.528: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: 139.59.246.202
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Agent 0x7f4c540122c0 : added a new pair 0x7f4c58003210 with foundation '2:3107582765' and transport udp:udp to stream 1 component 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.529: Agent 0x7f4c540122c0 : creating a new pair
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Agent 0x7f4c540122c0 : pair 0x7f4c58003000 state FROZEN (priv_add_new_check_pair)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Agent 0x7f4c540122c0 : new pair 0x7f4c58003000 : [10.130.119.178]:50063 --> [192.168.1.171]:58820
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: 139.59.246.202
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Agent 0x7f4c540122c0 : added a new pair 0x7f4c58003000 with foundation '3:3107582765' and transport udp:udp to stream 1 component 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.530: Agent 0x7f4c540122c0 : conn_check_remote_candidates_set 1 1
+janus_1  | [3946167701120051] Component state changed for component 1 in stream 1: 2 (connecting)
+janus_1  | [3946167701120051] 1 remote candidate added
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : Pair 0x7f4c58003000 with s/c-id 1/1 (3:3107582765) unfrozen.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : pair 0x7f4c58003000 state WAITING (priv_conn_check_unfreeze_next)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : Pair 0x7f4c58003210 with s/c-id 1/1 (2:3107582765) unfrozen.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : pair 0x7f4c58003210 state WAITING (priv_conn_check_unfreeze_next)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : Pair 0x7f4c58003160 with s/c-id 1/1 (1:3107582765) unfrozen.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : pair 0x7f4c58003160 state WAITING (priv_conn_check_unfreeze_next)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : pair 0x7f4c58003000 state IN_PROGRESS (priv_conn_check_initiate)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : STUN-CC REQ [10.130.119.178]:50063 --> [192.168.1.171]:58820, socket=37, pair=0x7f4c58003000 (c-id:1), tie=5441400875062505120, username='EG9r:8o4p' (9), password='Z4B3I0+7zIdrqbe9hMsm6vQt' (24), prio=6e2002ff, controlled.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : conn_check_send: set cand_use=0 (aggressive nomination).
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.551:  Message HMAC-SHA1 message integrity:
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.551:   key     : 0x5a34423349302b377a49647271626539684d736d36765174
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.551:   sent    : 0xe177b347ebef95f4af6133a685e36f26c5c2d6a1
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.551:  Message HMAC-SHA1 fingerprint: 0x8070d040
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0: conncheck created 88 - 0x7f4c200040e8
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : timer set to 500ms, waiting+in_progress=3
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.551: Agent 0x7f4c540122c0 : stream 1: timer tick #1: 0 frozen, 1 in-progress, 2 waiting, 0 succeeded, 0 discovered, 0 nominated, 0 waiting-for-nom, 0 valid
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.573: Agent 0x7f4c540122c0 : pair 0x7f4c58003210 state IN_PROGRESS (priv_conn_check_initiate)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.573: Agent 0x7f4c540122c0 : STUN-CC REQ [10.15.0.16]:33185 --> [192.168.1.171]:58820, socket=36, pair=0x7f4c58003210 (c-id:1), tie=5441400875062505120, username='EG9r:8o4p' (9), password='Z4B3I0+7zIdrqbe9hMsm6vQt' (24), prio=6e2001ff, controlled.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.573: Agent 0x7f4c540122c0 : conn_check_send: set cand_use=0 (aggressive nomination).
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.573:  Message HMAC-SHA1 message integrity:
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.573:   key     : 0x5a34423349302b377a49647271626539684d736d36765174
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.573:   sent    : 0x380f71e29d799b60d5b263b333f36b9c58c6a8a0
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.573:  Message HMAC-SHA1 fingerprint: 0x6ea95c60
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.573: Agent 0x7f4c540122c0: conncheck created 88 - 0x7f4c20005428
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.573: Agent 0x7f4c540122c0 : timer set to 500ms, waiting+in_progress=3
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.594: Agent 0x7f4c540122c0 : pair 0x7f4c58003160 state IN_PROGRESS (priv_conn_check_initiate)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.594: Agent 0x7f4c540122c0 : STUN-CC REQ [139.59.246.202]:48275 --> [192.168.1.171]:58820, socket=35, pair=0x7f4c58003160 (c-id:1), tie=5441400875062505120, username='EG9r:8o4p' (9), password='Z4B3I0+7zIdrqbe9hMsm6vQt' (24), prio=6e2000ff, controlled.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.594: Agent 0x7f4c540122c0 : conn_check_send: set cand_use=0 (aggressive nomination).
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.594:  Message HMAC-SHA1 message integrity:
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.594:   key     : 0x5a34423349302b377a49647271626539684d736d36765174
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.595:   sent    : 0xf789a4618efa23e019b59ff268e824e0407da1e0
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.595:  Message HMAC-SHA1 fingerprint: 0x49604a37
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.595: Agent 0x7f4c540122c0: conncheck created 88 - 0x7f4c20006068
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.595: Agent 0x7f4c540122c0 : timer set to 500ms, waiting+in_progress=3
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.612: Agent 0x7f4c540122c0: inbound STUN packet for 1/1 (stream/component) from [115.78.2.93]:58820 (100 octets) :
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.612: STUN demux: OK!
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613: Comparing username/ufrag of len 9 and 4, equal=0
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   username: 0x386f34703a45473972
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   ufrag:    0x386f3470
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613: Found valid username, returning password: 'xuojvmPoWdPeY96tCEyWOw'
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:  Message HMAC-SHA1 fingerprint:
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   key     : 0x78756f6a766d506f5764506559393674434579574f77
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   expected: 0x0860423ceb83e7568ccdb21f7fbbcb5c9dc76b3b
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   received: 0x0860423ceb83e7568ccdb21f7fbbcb5c9dc76b3b
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613: STUN auth: OK!
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613: STUN unknown: 0 mandatory attribute(s)!
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613: STUN Reply (buffer size = 1300)...
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:  Message HMAC-SHA1 message integrity:
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   key     : 0x78756f6a766d506f5764506559393674434579574f77
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.613:   sent    : 0x5445ff655f15406d32df228149459dd2f64f02dc
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.614:  Message HMAC-SHA1 fingerprint: 0x9fb87bc8
+janus_1  | (process:1): libnice-stun-DEBUG: 04:35:00.614:  All done (response size: 80)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : No matching remote candidate for incoming check -> peer-reflexive candidate.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 :  1:1 Adding valid source candidate: 115.78.2.93:58820 trans: 0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : STUN-CC RESP to '115.78.2.93:58820', socket=35, len=80, cand=0x7f4c5401b3e0 (c-id:1), use-cand=1.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : scheduling triggered check with socket=0x7f4c5401d6b0 and remote cand=0x7f4c5401b3e0.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : Adding a triggered check to conn.check list (local=0x7f4c5401b200).
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : creating a new pair
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : pair 0x7f4c580030b0 state WAITING (priv_add_new_check_pair)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.614: Agent 0x7f4c540122c0 : new pair 0x7f4c580030b0 : [139.59.246.202]:48275 --> [115.78.2.93]:58820
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: Failed to convert address to string for interface ?lo?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: Failed to convert address to string for interface ?eth0?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: Failed to convert address to string for interface ?eth1?.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: IP Address: 127.0.0.1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: IP Address: 139.59.246.202
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4c5004ba90)
+janus_1  | [3946167701120051] Trickle candidate (0): candidate:842163049 1 udp 1677729535 115.78.2.93 58820 typ srflx raddr 192.168.1.171 rport 58820 generation 0 ufrag EG9r network-cost 999
+janus_1  | [3946167701120051]  Adding remote candidate component:1 stream:1 type:srflx 192.168.1.171:58820 --> 115.78.2.93:58820 
+janus_1  | [3946167701120051]  Transport: UDP
+janus_1  | [3946167701120051] Queueing candidate 0x7f4c4c0060a0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.615: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: IP Address: 10.15.0.16
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: IP Address: 10.130.119.178
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: Interface:  lo
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: IP Address: ::1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: Interface:  eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: IP Address: fe80::5cb3:a7ff:fe02:61e7%eth0
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: Interface:  eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: IP Address: fe80::bcaa:1dff:fe96:652%eth1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: Agent 0x7f4c540122c0 : added a new pair 0x7f4c580030b0 with foundation '1:remote1' and transport udp:udp to stream 1 component 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: Agent 0x7f4c540122c0 : pair 0x7f4c580030b0 (1:remote1) is WAITING, will be nominated on response receipt.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.616: agent_recv_message_unlocked: Valid STUN packet received.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0: set_remote_candidates 1 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : Updating existing peer-rfx remote candidate to srflx
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : Updating existing remote candidate with addr [115.78.2.93]:58820 for s1/c1. U/P '(null)'/'(null)' prio: 64001eff
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : Updating pair 0x7f4c580030b0 foundation to '1:842163049'
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : conn.check list status: 0 nominated, 0 valid, c-id 1.
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : Warning: ignoring externally set peer-reflexive candidate!
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : conn_check_remote_candidates_set 1 1
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : pair 0x7f4c580030b0 state IN_PROGRESS (priv_conn_check_initiate)
+janus_1  | (process:1): libnice-DEBUG: 04:35:00.617: Agent 0x7f4c540122c0 : STUN-CC REQ [139.5

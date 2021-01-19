@@ -1,3 +1,24 @@
+janus_1  | [WSS-0x7f4d300503a0] WebSocket connection opened from ::ffff:139.59.246.202
+janus_1  | Checking if ::ffff:139.59.246.202 is allowed to contact janus interface
+janus_1  | Yep
+janus_1  | [WSS-0x7f4d300503a0] WebSocket connection accepted
+janus_1  | [WSS-0x7f4d300503a0]   -- Ready to be used!
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Creating new session: 7214997793753017; 0x7f4d30055d50
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Creating new handle in session 7214997793753017: 7972126594182819; 0x7f4d30055d50 0x7f4d2c013aa0
+janus_1  | [7972126594182819] Handle thread started; 0x7f4d2c013aa0
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Transport task pool, serving request
+janus_1  | [7972126594182819] There's a message for JANUS EchoTest plugin
+janus_1  | Setting audio property: true
+janus_1  | Setting video property: true
+janus_1  | [7972126594182819] Sending event to transport...
+janus_1  |   >> 0 (Success)
+web_1    | 115.78.2.93 - - [19/Jan/2021:04:29:13 +0000] "GET /up_arrow.png HTTP/1.1" 200 2611 "https://turn.aeit.club/echotest.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" "-"
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Transport task pool, serving request
+janus_1  | [7972126594182819] There's a message for JANUS EchoTest plugin
 janus_1  | [7972126594182819] Remote SDP:
 janus_1  | v=0
 janus_1  | o=- 3831833272369963004 2 IN IP4 127.0.0.1
