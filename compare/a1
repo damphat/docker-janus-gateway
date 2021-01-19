@@ -1,0 +1,553 @@
+janus_1  | [7972126594182819] Remote SDP:
+janus_1  | v=0
+janus_1  | o=- 3831833272369963004 2 IN IP4 127.0.0.1
+janus_1  | s=-
+janus_1  | t=0 0
+janus_1  | a=group:BUNDLE 0 1 2
+janus_1  | a=msid-semantic: WMS 4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc
+janus_1  | m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+janus_1  | c=IN IP4 0.0.0.0
+janus_1  | a=rtcp:9 IN IP4 0.0.0.0
+janus_1  | a=ice-ufrag:ar8o
+janus_1  | a=ice-pwd:Y3At8Bo7kmjoFhFIYN+gi5xW
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 77:74:DC:0A:38:AC:7B:F4:86:A2:42:7A:8D:EA:DE:01:EC:B2:CF:CA:00:CE:E2:2D:30:45:42:FA:10:C0:2C:CC
+janus_1  | a=setup:actpass
+janus_1  | a=mid:0
+janus_1  | a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=sendrecv
+janus_1  | a=msid:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc a84dfb53-c91a-47e9-9d1e-377b9161fc99
+janus_1  | a=rtcp-mux
+janus_1  | a=rtpmap:111 opus/48000/2
+janus_1  | a=rtcp-fb:111 transport-cc
+janus_1  | a=fmtp:111 minptime=10;useinbandfec=1
+janus_1  | a=rtpmap:103 ISAC/16000
+janus_1  | a=rtpmap:104 ISAC/32000
+janus_1  | a=rtpmap:9 G722/8000
+janus_1  | a=rtpmap:0 PCMU/8000
+janus_1  | a=rtpmap:8 PCMA/8000
+janus_1  | a=rtpmap:106 CN/32000
+janus_1  | a=rtpmap:105 CN/16000
+janus_1  | a=rtpmap:13 CN/8000
+janus_1  | a=rtpmap:110 telephone-event/48000
+janus_1  | a=rtpmap:112 telephone-event/32000
+janus_1  | a=rtpmap:113 telephone-event/16000
+janus_1  | a=rtpmap:126 telephone-event/8000
+janus_1  | a=ssrc:1523208925 cname:u/HlrtUNalw+ZMn9
+janus_1  | a=ssrc:1523208925 msid:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc a84dfb53-c91a-47e9-9d1e-377b9161fc99
+janus_1  | a=ssrc:1523208925 mslabel:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc
+janus_1  | a=ssrc:1523208925 label:a84dfb53-c91a-47e9-9d1e-377b9161fc99
+janus_1  | m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 121 127 120 125 107 108 109 124 119 123 118 114 115 116
+janus_1  | c=IN IP4 0.0.0.0
+janus_1  | a=rtcp:9 IN IP4 0.0.0.0
+janus_1  | a=ice-ufrag:ar8o
+janus_1  | a=ice-pwd:Y3At8Bo7kmjoFhFIYN+gi5xW
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 77:74:DC:0A:38:AC:7B:F4:86:A2:42:7A:8D:EA:DE:01:EC:B2:CF:CA:00:CE:E2:2D:30:45:42:FA:10:C0:2C:CC
+janus_1  | a=setup:actpass
+janus_1  | a=mid:1
+janus_1  | a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:13 urn:3gpp:video-orientation
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:12 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+janus_1  | a=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+janus_1  | a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+janus_1  | a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=sendrecv
+janus_1  | a=msid:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc 42b4793e-af64-4287-aff6-39d236292a8f
+janus_1  | a=rtcp-mux
+janus_1  | a=rtcp-rsize
+janus_1  | a=rtpmap:96 VP8/90000
+janus_1  | a=rtcp-fb:96 goog-remb
+janus_1  | a=rtcp-fb:96 transport-cc
+janus_1  | a=rtcp-fb:96 ccm fir
+janus_1  | a=rtcp-fb:96 nack
+janus_1  | a=rtcp-fb:96 nack pli
+janus_1  | a=rtpmap:97 rtx/90000
+janus_1  | a=fmtp:97 apt=96
+janus_1  | a=rtpmap:98 VP9/90000
+janus_1  | a=rtcp-fb:98 goog-remb
+janus_1  | a=rtcp-fb:98 transport-cc
+janus_1  | a=rtcp-fb:98 ccm fir
+janus_1  | a=rtcp-fb:98 nack
+janus_1  | a=rtcp-fb:98 nack pli
+janus_1  | a=fmtp:98 profile-id=0
+janus_1  | a=rtpmap:99 rtx/90000
+janus_1  | a=fmtp:99 apt=98
+janus_1  | a=rtpmap:100 VP9/90000
+janus_1  | a=rtcp-fb:100 goog-remb
+janus_1  | a=rtcp-fb:100 transport-cc
+janus_1  | a=rtcp-fb:100 ccm fir
+janus_1  | a=rtcp-fb:100 nack
+janus_1  | a=rtcp-fb:100 nack pli
+janus_1  | a=fmtp:100 profile-id=2
+janus_1  | a=rtpmap:101 rtx/90000
+janus_1  | a=fmtp:101 apt=100
+janus_1  | a=rtpmap:102 H264/90000
+janus_1  | a=rtcp-fb:102 goog-remb
+janus_1  | a=rtcp-fb:102 transport-cc
+janus_1  | a=rtcp-fb:102 ccm fir
+janus_1  | a=rtcp-fb:102 nack
+janus_1  | a=rtcp-fb:102 nack pli
+janus_1  | a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+janus_1  | a=rtpmap:121 rtx/90000
+janus_1  | a=fmtp:121 apt=102
+janus_1  | a=rtpmap:127 H264/90000
+janus_1  | a=rtcp-fb:127 goog-remb
+janus_1  | a=rtcp-fb:127 transport-cc
+janus_1  | a=rtcp-fb:127 ccm fir
+janus_1  | a=rtcp-fb:127 nack
+janus_1  | a=rtcp-fb:127 nack pli
+janus_1  | a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f
+janus_1  | a=rtpmap:120 rtx/90000
+janus_1  | a=fmtp:120 apt=127
+janus_1  | a=rtpmap:125 H264/90000
+janus_1  | a=rtcp-fb:125 goog-remb
+janus_1  | a=rtcp-fb:125 transport-cc
+janus_1  | a=rtcp-fb:125 ccm fir
+janus_1  | a=rtcp-fb:125 nack
+janus_1  | a=rtcp-fb:125 nack pli
+janus_1  | a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+janus_1  | a=rtpmap:107 rtx/90000
+janus_1  | a=fmtp:107 apt=125
+janus_1  | a=rtpmap:108 H264/90000
+janus_1  | a=rtcp-fb:108 goog-remb
+janus_1  | a=rtcp-fb:108 transport-cc
+janus_1  | a=rtcp-fb:108 ccm fir
+janus_1  | a=rtcp-fb:108 nack
+janus_1  | a=rtcp-fb:108 nack pli
+janus_1  | a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f
+janus_1  | a=rtpmap:109 rtx/90000
+janus_1  | a=fmtp:109 apt=108
+janus_1  | a=rtpmap:124 H264/90000
+janus_1  | a=rtcp-fb:124 goog-remb
+janus_1  | a=rtcp-fb:124 transport-cc
+janus_1  | a=rtcp-fb:124 ccm fir
+janus_1  | a=rtcp-fb:124 nack
+janus_1  | a=rtcp-fb:124 nack pli
+janus_1  | a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f
+janus_1  | a=rtpmap:119 rtx/90000
+janus_1  | a=fmtp:119 apt=124
+janus_1  | a=rtpmap:123 H264/90000
+janus_1  | a=rtcp-fb:123 goog-remb
+janus_1  | a=rtcp-fb:123 transport-cc
+janus_1  | a=rtcp-fb:123 ccm fir
+janus_1  | a=rtcp-fb:123 nack
+janus_1  | a=rtcp-fb:123 nack pli
+janus_1  | a=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f
+janus_1  | a=rtpmap:118 rtx/90000
+janus_1  | a=fmtp:118 apt=123
+janus_1  | a=rtpmap:114 red/90000
+janus_1  | a=rtpmap:115 rtx/90000
+janus_1  | a=fmtp:115 apt=114
+janus_1  | a=rtpmap:116 ulpfec/90000
+janus_1  | a=ssrc-group:FID 909982883 2883267886
+janus_1  | a=ssrc:909982883 cname:u/HlrtUNalw+ZMn9
+janus_1  | a=ssrc:909982883 msid:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc 42b4793e-af64-4287-aff6-39d236292a8f
+janus_1  | a=ssrc:909982883 mslabel:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc
+janus_1  | a=ssrc:909982883 label:42b4793e-af64-4287-aff6-39d236292a8f
+janus_1  | a=ssrc:2883267886 cname:u/HlrtUNalw+ZMn9
+janus_1  | a=ssrc:2883267886 msid:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc 42b4793e-af64-4287-aff6-39d236292a8f
+janus_1  | a=ssrc:2883267886 mslabel:4VKv3R2i9dC7qLmjlbe1AnHKmgZdFZ7IJ0Nc
+janus_1  | a=ssrc:2883267886 label:42b4793e-af64-4287-aff6-39d236292a8f
+janus_1  | m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+janus_1  | c=IN IP4 0.0.0.0
+janus_1  | a=ice-ufrag:ar8o
+janus_1  | a=ice-pwd:Y3At8Bo7kmjoFhFIYN+gi5xW
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 77:74:DC:0A:38:AC:7B:F4:86:A2:42:7A:8D:EA:DE:01:EC:B2:CF:CA:00:CE:E2:2D:30:45:42:FA:10:C0:2C:CC
+janus_1  | a=setup:actpass
+janus_1  | a=mid:2
+janus_1  | a=sctp-port:5000
+janus_1  | a=max-message-size:262144
+janus_1  | [7972126594182819] Audio mid: 0
+janus_1  | [7972126594182819] Video mid: 1
+janus_1  | [7972126594182819] Audio has been negotiated, Video has been negotiated, SCTP/DataChannels have been negotiated
+janus_1  | [7972126594182819] Setting ICE locally: got OFFER (1 audios, 1 videos)
+janus_1  | [7972126594182819] Creating ICE agent (ICE Full mode, controlled)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | [7972126594182819] Adding 139.59.246.202 to the addresses to gather candidates for
+janus_1  | [7972126594182819] Adding 10.15.0.16 to the addresses to gather candidates for
+janus_1  | [7972126594182819] Adding 10.130.119.178 to the addresses to gather candidates for
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | [7972126594182819] Gathering done for stream 1
+janus_1  | [7972126594182819] Parsing audio candidates (stream=1)...
+janus_1  | [7972126594182819] ICE ufrag (local):   ar8o
+janus_1  | [7972126594182819] ICE pwd (local):     Y3At8Bo7kmjoFhFIYN+gi5xW
+janus_1  | [7972126594182819] Fingerprint (local) : sha-256 77:74:DC:0A:38:AC:7B:F4:86:A2:42:7A:8D:EA:DE:01:EC:B2:CF:CA:00:CE:E2:2D:30:45:42:FA:10:C0:2C:CC
+janus_1  | [7972126594182819] DTLS setup (local):  actpass
+janus_1  | [7972126594182819] Setting connect state (DTLS client)
+janus_1  | [7972126594182819] Audio mid: 0
+janus_1  | [7972126594182819] Setting remote credentials...
+janus_1  | [7972126594182819] Peer audio SSRC: 1523208925
+janus_1  | [7972126594182819] Parsing video candidates (stream=1)...
+janus_1  | [7972126594182819] ICE ufrag (local):   ar8o
+janus_1  | [7972126594182819] ICE pwd (local):     Y3At8Bo7kmjoFhFIYN+gi5xW
+janus_1  | [7972126594182819] Fingerprint (local) : sha-256 77:74:DC:0A:38:AC:7B:F4:86:A2:42:7A:8D:EA:DE:01:EC:B2:CF:CA:00:CE:E2:2D:30:45:42:FA:10:C0:2C:CC
+janus_1  | [7972126594182819] DTLS setup (local):  actpass
+janus_1  | [7972126594182819] Setting connect state (DTLS client)
+janus_1  | [7972126594182819] Video mid: 1
+janus_1  | [7972126594182819] Peer video SSRC: 909982883
+janus_1  | [7972126594182819] Peer video SSRC (rtx): 2883267886
+janus_1  | [7972126594182819] Parsing SCTP candidates (stream=1)...
+janus_1  | [7972126594182819] ICE ufrag (local):   ar8o
+janus_1  | [7972126594182819] ICE pwd (local):     Y3At8Bo7kmjoFhFIYN+gi5xW
+janus_1  | [7972126594182819] Fingerprint (local) : sha-256 77:74:DC:0A:38:AC:7B:F4:86:A2:42:7A:8D:EA:DE:01:EC:B2:CF:CA:00:CE:E2:2D:30:45:42:FA:10:C0:2C:CC
+janus_1  | [7972126594182819] DTLS setup (local):  actpass
+janus_1  | [7972126594182819] Setting connect state (DTLS client)
+janus_1  | [7972126594182819] Data Channel mid: 2
+janus_1  | Will remove payload type 97 (97 rtx/90000)
+janus_1  | Will remove payload type 99 (99 rtx/90000)
+janus_1  | Will remove payload type 101 (101 rtx/90000)
+janus_1  | Will remove payload type 121 (121 rtx/90000)
+janus_1  | Will remove payload type 120 (120 rtx/90000)
+janus_1  | Will remove payload type 107 (107 rtx/90000)
+janus_1  | Will remove payload type 109 (109 rtx/90000)
+janus_1  | Will remove payload type 119 (119 rtx/90000)
+janus_1  | Will remove payload type 118 (118 rtx/90000)
+janus_1  | Will remove payload type 114 (114 red/90000)
+janus_1  | Will remove payload type 115 (115 rtx/90000)
+janus_1  | Will remove payload type 116 (116 ulpfec/90000)
+janus_1  |  -------------------------------------------
+janus_1  |   >> Anonymized
+janus_1  |  -------------------------------------------
+janus_1  | Setting audio property: true
+janus_1  | Setting video property: true
+janus_1  | This is involving a negotiation (offer) as well:
+janus_1  | v=0
+janus_1  | o=- 3831833272369963004 2 IN IP4 1.1.1.1
+janus_1  | s=-
+janus_1  | t=0 0
+janus_1  | m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+janus_1  | c=IN IP4 1.1.1.1
+janus_1  | a=sendrecv
+janus_1  | a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=rtpmap:111 opus/48000/2
+janus_1  | a=rtcp-fb:111 transport-cc
+janus_1  | a=fmtp:111 minptime=10;useinbandfec=1
+janus_1  | a=rtpmap:103 ISAC/16000
+janus_1  | a=rtpmap:104 ISAC/32000
+janus_1  | a=rtpmap:9 G722/8000
+janus_1  | a=rtpmap:0 PCMU/8000
+janus_1  | a=rtpmap:8 PCMA/8000
+janus_1  | a=rtpmap:106 CN/32000
+janus_1  | a=rtpmap:105 CN/16000
+janus_1  | a=rtpmap:13 CN/8000
+janus_1  | a=rtpmap:110 telephone-event/48000
+janus_1  | a=rtpmap:112 telephone-event/32000
+janus_1  | a=rtpmap:113 telephone-event/16000
+janus_1  | a=rtpmap:126 telephone-event/8000
+janus_1  | m=video 9 UDP/TLS/RTP/SAVPF 96 98 100 102 127 125 108 124 123
+janus_1  | c=IN IP4 1.1.1.1
+janus_1  | a=sendrecv
+janus_1  | a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+janus_1  | a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+janus_1  | a=extmap:13 urn:3gpp:video-orientation
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:12 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+janus_1  | a=extmap:11 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+janus_1  | a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+janus_1  | a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=rtpmap:96 VP8/90000
+janus_1  | a=rtcp-fb:96 goog-remb
+janus_1  | a=rtcp-fb:96 transport-cc
+janus_1  | a=rtcp-fb:96 ccm fir
+janus_1  | a=rtcp-fb:96 nack
+janus_1  | a=rtcp-fb:96 nack pli
+janus_1  | a=rtpmap:98 VP9/90000
+janus_1  | a=rtcp-fb:98 goog-remb
+janus_1  | a=rtcp-fb:98 transport-cc
+janus_1  | a=rtcp-fb:98 ccm fir
+janus_1  | a=rtcp-fb:98 nack
+janus_1  | a=rtcp-fb:98 nack pli
+janus_1  | a=fmtp:98 profile-id=0
+janus_1  | a=rtpmap:100 VP9/90000
+janus_1  | a=rtcp-fb:100 goog-remb
+janus_1  | a=rtcp-fb:100 transport-cc
+janus_1  | a=rtcp-fb:100 ccm fir
+janus_1  | a=rtcp-fb:100 nack
+janus_1  | a=rtcp-fb:100 nack pli
+janus_1  | a=fmtp:100 profile-id=2
+janus_1  | a=rtpmap:102 H264/90000
+janus_1  | a=rtcp-fb:102 goog-remb
+janus_1  | a=rtcp-fb:102 transport-cc
+janus_1  | a=rtcp-fb:102 ccm fir
+janus_1  | a=rtcp-fb:102 nack
+janus_1  | a=rtcp-fb:102 nack pli
+janus_1  | a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f
+janus_1  | a=rtpmap:127 H264/90000
+janus_1  | a=rtcp-fb:127 goog-remb
+janus_1  | a=rtcp-fb:127 transport-cc
+janus_1  | a=rtcp-fb:127 ccm fir
+janus_1  | a=rtcp-fb:127 nack
+janus_1  | a=rtcp-fb:127 nack pli
+janus_1  | a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f
+janus_1  | a=rtpmap:125 H264/90000
+janus_1  | a=rtcp-fb:125 goog-remb
+janus_1  | a=rtcp-fb:125 transport-cc
+janus_1  | a=rtcp-fb:125 ccm fir
+janus_1  | a=rtcp-fb:125 nack
+janus_1  | a=rtcp-fb:125 nack pli
+janus_1  | a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+janus_1  | a=rtpmap:108 H264/90000
+janus_1  | a=rtcp-fb:108 goog-remb
+janus_1  | a=rtcp-fb:108 transport-cc
+janus_1  | a=rtcp-fb:108 ccm fir
+janus_1  | a=rtcp-fb:108 nack
+janus_1  | a=rtcp-fb:108 nack pli
+janus_1  | a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f
+janus_1  | a=rtpmap:124 H264/90000
+janus_1  | a=rtcp-fb:124 goog-remb
+janus_1  | a=rtcp-fb:124 transport-cc
+janus_1  | a=rtcp-fb:124 ccm fir
+janus_1  | a=rtcp-fb:124 nack
+janus_1  | a=rtcp-fb:124 nack pli
+janus_1  | a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f
+janus_1  | a=rtpmap:123 H264/90000
+janus_1  | a=rtcp-fb:123 goog-remb
+janus_1  | a=rtcp-fb:123 transport-cc
+janus_1  | a=rtcp-fb:123 ccm fir
+janus_1  | a=rtcp-fb:123 nack
+janus_1  | a=rtcp-fb:123 nack pli
+janus_1  | a=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f
+janus_1  | m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+janus_1  | c=IN IP4 1.1.1.1
+janus_1  | a=sendrecv
+janus_1  | 
+janus_1  |  -------------------------------------------
+janus_1  |   >> Anonymized
+janus_1  |  -------------------------------------------
+janus_1  | [7972126594182819] We have 3 candidates for Stream #1, Component #1
+janus_1  | [7972126594182819]   Address:    139.59.246.202:55281
+janus_1  | [7972126594182819]   Priority:   2015363327
+janus_1  | [7972126594182819]   Foundation: 1
+janus_1  | [7972126594182819]     1 1 udp 2015363327 139.59.246.202 55281 typ host
+janus_1  | [7972126594182819]   Address:    10.15.0.16:46342
+janus_1  | [7972126594182819]   Priority:   2015363583
+janus_1  | [7972126594182819]   Foundation: 2
+janus_1  | [7972126594182819]     2 1 udp 2015363583 10.15.0.16 46342 typ host
+janus_1  | [7972126594182819]   Address:    10.130.119.178:33815
+janus_1  | [7972126594182819]   Priority:   2015363839
+janus_1  | [7972126594182819]   Foundation: 3
+janus_1  | [7972126594182819]     3 1 udp 2015363839 10.130.119.178 33815 typ host
+janus_1  | [7972126594182819] We have 3 candidates for Stream #1, Component #1
+janus_1  | [7972126594182819]   Address:    139.59.246.202:55281
+janus_1  | [7972126594182819]   Priority:   2015363327
+janus_1  | [7972126594182819]   Foundation: 1
+janus_1  | [7972126594182819]     1 1 udp 2015363327 139.59.246.202 55281 typ host
+janus_1  | [7972126594182819]   Address:    10.15.0.16:46342
+janus_1  | [7972126594182819]   Priority:   2015363583
+janus_1  | [7972126594182819]   Foundation: 2
+janus_1  | [7972126594182819]     2 1 udp 2015363583 10.15.0.16 46342 typ host
+janus_1  | [7972126594182819]   Address:    10.130.119.178:33815
+janus_1  | [7972126594182819]   Priority:   2015363839
+janus_1  | [7972126594182819]   Foundation: 3
+janus_1  | [7972126594182819]     3 1 udp 2015363839 10.130.119.178 33815 typ host
+janus_1  | [7972126594182819] We have 3 candidates for Stream #1, Component #1
+janus_1  | [7972126594182819]   Address:    139.59.246.202:55281
+janus_1  | [7972126594182819]   Priority:   2015363327
+janus_1  | [7972126594182819]   Foundation: 1
+janus_1  | [7972126594182819]     1 1 udp 2015363327 139.59.246.202 55281 typ host
+janus_1  | [7972126594182819]   Address:    10.15.0.16:46342
+janus_1  | [7972126594182819]   Priority:   2015363583
+janus_1  | [7972126594182819]   Foundation: 2
+janus_1  | [7972126594182819]     2 1 udp 2015363583 10.15.0.16 46342 typ host
+janus_1  | [7972126594182819]   Address:    10.130.119.178:33815
+janus_1  | [7972126594182819]   Priority:   2015363839
+janus_1  | [7972126594182819]   Foundation: 3
+janus_1  | [7972126594182819]     3 1 udp 2015363839 10.130.119.178 33815 typ host
+janus_1  |  -------------------------------------------
+janus_1  |   >> Merged (2979 bytes)
+janus_1  |  -------------------------------------------
+janus_1  | v=0
+janus_1  | o=- 3831833272369963004 2 IN IP4 139.59.246.202
+janus_1  | s=-
+janus_1  | t=0 0
+janus_1  | a=group:BUNDLE 0 1 2
+janus_1  | a=msid-semantic: WMS janus
+janus_1  | m=audio 9 UDP/TLS/RTP/SAVPF 111
+janus_1  | c=IN IP4 139.59.246.202
+janus_1  | a=sendrecv
+janus_1  | a=mid:0
+janus_1  | a=rtcp-mux
+janus_1  | a=ice-ufrag:3bw9
+janus_1  | a=ice-pwd:ftJU7C7cJZh840ipBwNncX
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 CD:E6:A0:3A:32:A1:8A:9B:A9:F5:42:32:2A:F0:57:E4:3F:8D:C2:D3:30:A0:AA:F0:7C:82:97:01:D6:17:AC:7C
+janus_1  | a=setup:active
+janus_1  | a=rtpmap:111 opus/48000/2
+janus_1  | a=fmtp:111 useinbandfec=1
+janus_1  | a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=msid:janus janusa0
+janus_1  | a=ssrc:2252548586 cname:janus
+janus_1  | a=ssrc:2252548586 msid:janus janusa0
+janus_1  | a=ssrc:2252548586 mslabel:janus
+janus_1  | a=ssrc:2252548586 label:janusa0
+janus_1  | a=candidate:1 1 udp 2015363327 139.59.246.202 55281 typ host
+janus_1  | a=candidate:2 1 udp 2015363583 10.15.0.16 46342 typ host
+janus_1  | a=candidate:3 1 udp 2015363839 10.130.119.178 33815 typ host
+janus_1  | a=end-of-candidates
+janus_1  | m=video 9 UDP/TLS/RTP/SAVPF 96 97
+janus_1  | c=IN IP4 139.59.246.202
+janus_1  | a=sendrecv
+janus_1  | a=mid:1
+janus_1  | a=rtcp-mux
+janus_1  | a=ice-ufrag:3bw9
+janus_1  | a=ice-pwd:ftJU7C7cJZh840ipBwNncX
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 CD:E6:A0:3A:32:A1:8A:9B:A9:F5:42:32:2A:F0:57:E4:3F:8D:C2:D3:30:A0:AA:F0:7C:82:97:01:D6:17:AC:7C
+janus_1  | a=setup:active
+janus_1  | a=rtpmap:96 VP8/90000
+janus_1  | a=rtcp-fb:96 ccm fir
+janus_1  | a=rtcp-fb:96 nack
+janus_1  | a=rtcp-fb:96 nack pli
+janus_1  | a=rtcp-fb:96 goog-remb
+janus_1  | a=rtcp-fb:96 transport-cc
+janus_1  | a=extmap:13 urn:3gpp:video-orientation
+janus_1  | a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+janus_1  | a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+janus_1  | a=extmap:5 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+janus_1  | a=extmap:6 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+janus_1  | a=rtpmap:97 rtx/90000
+janus_1  | a=fmtp:97 apt=96
+janus_1  | a=ssrc-group:FID 703768968 812859567
+janus_1  | a=msid:janus janusv0
+janus_1  | a=ssrc:703768968 cname:janus
+janus_1  | a=ssrc:703768968 msid:janus janusv0
+janus_1  | a=ssrc:703768968 mslabel:janus
+janus_1  | a=ssrc:703768968 label:janusv0
+janus_1  | a=ssrc:812859567 cname:janus
+janus_1  | a=ssrc:812859567 msid:janus janusv0
+janus_1  | a=ssrc:812859567 mslabel:janus
+janus_1  | a=ssrc:812859567 label:janusv0
+janus_1  | a=candidate:1 1 udp 2015363327 139.59.246.202 55281 typ host
+janus_1  | a=candidate:2 1 udp 2015363583 10.15.0.16 46342 typ host
+janus_1  | a=candidate:3 1 udp 2015363839 10.130.119.178 33815 typ host
+janus_1  | a=end-of-candidates
+janus_1  | m=application 9 UDP/DTLS/SCTP webrtc-datachannel
+janus_1  | c=IN IP4 139.59.246.202
+janus_1  | a=sendrecv
+janus_1  | a=sctp-port:5000
+janus_1  | a=mid:2
+janus_1  | a=ice-ufrag:3bw9
+janus_1  | a=ice-pwd:ftJU7C7cJZh840ipBwNncX
+janus_1  | a=ice-options:trickle
+janus_1  | a=fingerprint:sha-256 CD:E6:A0:3A:32:A1:8A:9B:A9:F5:42:32:2A:F0:57:E4:3F:8D:C2:D3:30:A0:AA:F0:7C:82:97:01:D6:17:AC:7C
+janus_1  | a=setup:active
+janus_1  | a=candidate:1 1 udp 2015363327 139.59.246.202 55281 typ host
+janus_1  | a=candidate:2 1 udp 2015363583 10.15.0.16 46342 typ host
+janus_1  | a=candidate:3 1 udp 2015363839 10.130.119.178 33815 typ host
+janus_1  | a=end-of-candidates
+janus_1  | 
+janus_1  | [7972126594182819] Sending answer, ready to setup remote candidates and send connectivity checks...
+janus_1  | [7972126594182819]   -- ICE Trickling is supported by the browser, waiting for remote candidates...
+janus_1  | [7972126594182819] Sending event to transport...
+janus_1  |   >> Pushing event: 0 (took 1089 us)
+janus_1  | [7972126594182819] Trickle candidate (0): candidate:1621125553 1 udp 2122260223 172.24.240.1 56570 typ host generation 0 ufrag ar8o network-id 1
+janus_1  | [7972126594182819]  Adding remote candidate component:1 stream:1 type:host 172.24.240.1:56570
+janus_1  | [7972126594182819]  Transport: UDP
+janus_1  | [7972126594182819] ICE already started for this component, setting candidates we have up to now
+janus_1  | [7972126594182819] ## Setting remote candidates: stream 1, component 1 (1 in the list)
+janus_1  | [7972126594182819] Queueing candidate 0x7f4d3404cbc0 (startup)
+janus_1  | [7972126594182819] Trickle candidate (0): candidate:3107582765 1 udp 2122194687 192.168.1.171 56571 typ host generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819]  Adding remote candidate component:1 stream:1 type:host 192.168.1.171:56571
+janus_1  | [7972126594182819]  Transport: UDP
+janus_1  | [7972126594182819] Queueing candidate 0x7f4d3404ca80
+janus_1  | [7972126594182819] Trickle candidate (1): candidate:1621125553 1 udp 2122260223 172.24.240.1 56572 typ host generation 0 ufrag ar8o network-id 1
+janus_1  | [7972126594182819] Got a mid='1' candidate (index 1) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (1): candidate:3107582765 1 udp 2122194687 192.168.1.171 56573 typ host generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819] Got a mid='1' candidate (index 1) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (2): candidate:1621125553 1 udp 2122260223 172.24.240.1 56574 typ host generation 0 ufrag ar8o network-id 1
+janus_1  | [7972126594182819] Got a mid='2' candidate (index 2) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (2): candidate:3107582765 1 udp 2122194687 192.168.1.171 56575 typ host generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819] Got a mid='2' candidate (index 2) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (0): candidate:774083905 1 tcp 1518280447 172.24.240.1 9 typ host tcptype active generation 0 ufrag ar8o network-id 1
+janus_1  | [7972126594182819]  Adding remote candidate component:1 stream:1 type:host 172.24.240.1:9
+janus_1  | [7972126594182819]    Skipping unsupported transport 'tcp' for media
+janus_1  | [7972126594182819] Trickle candidate (0): candidate:4156166109 1 tcp 1518214911 192.168.1.171 9 typ host tcptype active generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819]  Adding remote candidate component:1 stream:1 type:host 192.168.1.171:9
+janus_1  | [7972126594182819]    Skipping unsupported transport 'tcp' for media
+janus_1  | [7972126594182819] Trickle candidate (1): candidate:774083905 1 tcp 1518280447 172.24.240.1 9 typ host tcptype active generation 0 ufrag ar8o network-id 1
+janus_1  | [7972126594182819] Got a mid='1' candidate (index 1) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (1): candidate:4156166109 1 tcp 1518214911 192.168.1.171 9 typ host tcptype active generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819] Got a mid='1' candidate (index 1) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (2): candidate:774083905 1 tcp 1518280447 172.24.240.1 9 typ host tcptype active generation 0 ufrag ar8o network-id 1
+janus_1  | [7972126594182819] Got a mid='2' candidate (index 2) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Trickle candidate (2): candidate:4156166109 1 tcp 1518214911 192.168.1.171 9 typ host tcptype active generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819] Got a mid='2' candidate (index 2) but we're bundling, ignoring...
+janus_1  | [7972126594182819] Processing candidate 0x7f4d3404cbc0
+janus_1  | [7972126594182819] Processing candidate 0x7f4d3404ca80
+janus_1  | [7972126594182819] Component state changed for component 1 in stream 1: 2 (connecting)
+janus_1  | [7972126594182819] 2 remote candidates added
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | [7972126594182819] Trickle candidate (0): candidate:946992537 1 udp 1685987071 115.78.2.93 56571 typ srflx raddr 192.168.1.171 rport 56571 generation 0 ufrag ar8o network-id 2 network-cost 10
+janus_1  | [7972126594182819]  Adding remote candidate component:1 stream:1 type:srflx 192.168.1.171:56571 --> 115.78.2.93:56571 
+janus_1  | [7972126594182819]  Transport: UDP
+janus_1  | [7972126594182819] Queueing candidate 0x7f4d18005ca0
+janus_1  | [7972126594182819] Processing candidate 0x7f4d18005ca0
+janus_1  | [7972126594182819] 1 remote candidate added
+janus_1  | [7972126594182819] Component state changed for component 1 in stream 1: 5 (failed)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but let's give it some time... (trickle pending, answer received, alert not set)
+janus_1  | [7972126594182819] Creating ICE state check timer with ID 8
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [WARN] [7972126594182819] ICE failed for component 1 in stream 1, but we're still waiting for some info so we don't care... (trickle pending, answer received, alert not set)
+janus_1  | [ERR] [ice.c:janus_ice_check_failed:1767] [7972126594182819] ICE failed for component 1 in stream 1...
+janus_1  | [7972126594182819] Hanging up PeerConnection because of a ICE failed
+janus_1  | [7972126594182819] Telling the plugin about the hangup (JANUS EchoTest plugin)
+janus_1  | [janus.plugin.echotest-0x7f4d30055d20] No WebRTC media anymore
+janus_1  | [7972126594182819] Sending event to transport...
+janus_1  |   >> Pushing event: 0 (Success)
+janus_1  | [7972126594182819] Notifying WebRTC hangup; 0x7f4d2c013aa0
+janus_1  | [7972126594182819] Sending event to transport...; 0x7f4d2c013aa0
+janus_1  | [7972126594182819] WebRTC resources freed; 0x7f4d2c013aa0 0x7f4d30055d50
+janus_1  | Got a Janus API request from janus.transport.websockets (0x7f4d3004ee20)
+janus_1  | Got a keep-alive on session 7214997793753017
