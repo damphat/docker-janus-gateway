@@ -56,16 +56,6 @@ RUN cd /usr/local/src && \
 
 FROM debian:bullseye-slim
 
-ARG BUILD_DATE="undefined"
-ARG GIT_BRANCH="undefined"
-ARG GIT_COMMIT="undefined"
-ARG VERSION="undefined"
-
-LABEL build_date=${BUILD_DATE}
-LABEL git_branch=${GIT_BRANCH}
-LABEL git_commit=${GIT_COMMIT}
-LABEL version=${VERSION}
-
 RUN apt-get -y update && \
 	apt-get install -y \
 		libmicrohttpd12 \
@@ -105,10 +95,10 @@ ENV GIT_COMMIT=${GIT_COMMIT}
 ENV VERSION=${VERSION}
 
 EXPOSE 10000-10200/udp
-EXPOSE 8188
 EXPOSE 8088
 EXPOSE 8089
-EXPOSE 8889
+EXPOSE 8188
+EXPOSE 8189
 EXPOSE 7088
 EXPOSE 7089
 
