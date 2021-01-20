@@ -49,7 +49,7 @@ RUN cd /usr/local/src && \
     git clone https://github.com/meetecho/janus-gateway && \
 	cd janus-gateway && \
 	sh autogen.sh && \
-	./configure --prefix=/usr/local && \
+	./configure --prefix=/opt/janus && \
 	make && \
 	make install && \
 	make configs
@@ -83,23 +83,15 @@ COPY --from=0 /usr/lib/libnice.so.10.10.0 /usr/lib/libnice.so.10.10.0
 RUN ln -s /usr/lib/libnice.so.10.10.0 /usr/lib/libnice.so.10
 RUN ln -s /usr/lib/libnice.so.10.10.0 /usr/lib/libnice.so
 
-COPY --from=0 /usr/local/bin/janus /usr/local/bin/janus
-COPY --from=0 /usr/local/bin/janus-cfgconv /usr/local/bin/janus-cfgconv
-COPY --from=0 /usr/local/etc/janus /usr/local/etc/janus
-COPY --from=0 /usr/local/lib/janus /usr/local/lib/janus
-COPY --from=0 /usr/local/share/janus /usr/local/share/janus
-
-ENV BUILD_DATE=${BUILD_DATE}
-ENV GIT_BRANCH=${GIT_BRANCH}
-ENV GIT_COMMIT=${GIT_COMMIT}
-ENV VERSION=${VERSION}
+COPY --from=0 /opt/janus/bin/janus /opt/janus/bin/janus
+COPY --from=0 /opt/janus/bin/janus-cfgconv /opt/janus/bin/janus-cfgconv
+COPY --from=0 /opt/janus/etc/janus /opt/janus/etc/janus
+COPY --from=0 /opt/janus/lib/janus /opt/janus/lib/janus
+COPY --from=0 /opt/janus/share/janus /opt/janus/share/janus
 
 EXPOSE 10000-10200/udp
 EXPOSE 8088
-EXPOSE 8089
 EXPOSE 8188
-EXPOSE 8189
 EXPOSE 7088
-EXPOSE 7089
 
-CMD ["/usr/local/bin/janus"]
+CMD ["/opt/janus/bin/janus"]
