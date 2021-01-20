@@ -33,6 +33,6 @@ services:
     volumes:
       - "${NGINX_HTML:-./web/html}:/usr/share/nginx/html"
       - "${NGINX_TEMPLATES:-./web/templates}:/etc/nginx/templates"
-      - "${DOMAIN_CERT:-./cert/localhost.crt}:/etc/ssl/certs/janus.crt"
-      - "${DOMAIN_KEY:-./cert/localhost.key}:/etc/ssl/certs/janus.key"
+      - "${DOMAIN_CERT:-./cert/localhost.crt}:/etc/ssl/certs/${DOMAIN_NAME}.crt"
+      - "${DOMAIN_KEY:-./cert/localhost.key}:/etc/ssl/certs/${DOMAIN_NAME}.key"
     restart: always
