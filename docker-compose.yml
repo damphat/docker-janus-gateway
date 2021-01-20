@@ -4,21 +4,23 @@ services:
     image: damphat/janus-gateway
     build: ./janus/
     command:
-      - "/usr/local/bin/janus"    
+      - "/opt/janus/bin/janus"    
     network_mode: host
     volumes:
-     - "./janus/config:/usr/local/etc/janus/"
+     - "./janus/config:/opt/janus/etc/janus/"
     restart: always
+
   web:
     image: nginx:alpine
     network_mode: host
-    depends_on: [janus]
+    depends_on:
+      - janus
     environment:
-      - JANUS_HOST=${JANUS_HOST:-localhost}
-      - NGINX_HOST=${NGINX_HOST:-localhost}
+      - JANUS_HOST=localhost
+      - DOMAIN_NAME
     volumes:
       - "${NGINX_HTML:-./web/html}:/usr/share/nginx/html"
       - "${NGINX_TEMPLATES:-./web/templates}:/etc/nginx/templates"
-      - "${NGINX_CERT:-./cert/localhost.crt}:/etc/ssl/certs/janus.crt"
-      - "${NGINX_KEY:-./cert/localhost.key}:/etc/ssl/certs/janus.key"
+      - "${DOMAIN_CERT:-./cert/localhost.crt}:/etc/ssl/certs/${DOMAIN_NAME}.crt"
+      - "${DOMAIN_KEY:-./cert/localhost.key}:/etc/ssl/certs/${DOMAIN_NAME}.key"
     restart: always
