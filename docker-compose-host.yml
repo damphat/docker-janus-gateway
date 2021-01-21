@@ -4,31 +4,19 @@ services:
     image: damphat/janus-gateway
     build: ./janus/
     command:
-      - "/opt/janus/bin/janus"
-      - "-F"
-      - "/opt/janus/etc/janus"
-      - "-1"
-      - "${DOCKER_IP}"
-      - "-r"
-      - "${JANUS_RTP_PORTS}"
-    ports:
-      - "${JANUS_RTP_PORTS}:${JANUS_RTP_PORTS}/udp"
-      - "8088:8088"
-      - "8188:8188"
-      - "7088:7088"
+      - "/opt/janus/bin/janus"    
+    network_mode: host
     volumes:
      - "./janus/config:/opt/janus/etc/janus/"
     restart: always
 
   web:
     image: nginx:alpine
-    ports: 
-      - "80:80"
-      - "443:443"
+    network_mode: host
     depends_on:
       - janus
     environment:
-      - JANUS_HOST=janus
+      - JANUS_HOST=localhost
       - DOMAIN_NAME
     volumes:
       - "${NGINX_HTML:-./web/html}:/usr/share/nginx/html"
