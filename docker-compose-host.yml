@@ -5,6 +5,9 @@ services:
     build: ./janus/
     command:
       - "/opt/janus/bin/janus"    
+      - "-1"
+      - "${DOCKER_IP}"
+
     network_mode: host
     volumes:
      - "./janus/config:/opt/janus/etc/janus/"
